@@ -3,7 +3,6 @@
 from PySide2 import QtCore
 from PySide2.QtCore import QObject, Signal, Slot
 import socketio
-import json
 
 sio = socketio.Client()
 url = 'ws://localhost:5000'
