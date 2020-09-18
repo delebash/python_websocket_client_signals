@@ -157,7 +157,8 @@ class Form(QWidget):
 
         hand_string = "[" + beg + hand_str + end + "]"
         return hand_string
-       # hand_str = hand_str[:-1] remove last comment
+    # hand_str = hand_str[:-1] remove last comment
+
 
 app = QApplication(sys.argv)
 form = Form()
